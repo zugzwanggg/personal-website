@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  body {
+    @apply text-slate-700;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .container {
+    @apply px-6 m-auto;
+  }
+
+  .title-primary {
+    @apply md:text-2xl text-blue-950  text-xl font-bold uppercase
+  }
+}
