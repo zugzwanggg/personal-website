@@ -9,7 +9,7 @@ export interface IBurger {
 
 const Header:FC<IBurger> = ({burger,setBurger}) => {
   return (
-    <header className='fixed left-0 right-0 top-0 py-9 shadow-md bg-white'>
+    <header className='fixed left-0 z-50 right-0 top-0 py-9 shadow-md bg-white'>
       <div className="container">
         <nav>
           <ul className='md:flex items-center justify-end gap-12 hidden'>
