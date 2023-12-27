@@ -1,4 +1,5 @@
-
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Home = () => {
 
@@ -20,6 +21,11 @@ const Home = () => {
       <div className="md:gap-4 flex flex-col">
         <h1 className="md:text-6xl text-2xl font-bold">Frontend developer</h1>
         <p className="md:text-2xl">Hi i am Ansar. A passionate frontend developer from Kazakhstan <span className="md:text-4xl">👋</span>.</p>
+        <div className="flex items-center gap-6 mb-6">
+          <a href='https://github.com/zugzwanggg'><GitHubIcon style={{fontSize: '2rem'}}/></a>
+          <a href='https://www.linkedin.com/in/ansar-amankos-865b7b287/'><LinkedInIcon style={{fontSize: '2.5rem'}}/></a>
+          <a href="https://hh.kz/resume/bb1a6000ff0c76f0fb0039ed1f547271736f74"><img className='w-9' src='./img/hh-logo.png'/></a>
+        </div>
       </div>
       <div className="mt-16 flex items-center flex-col md:flex-row gap-4">
         <h1 className="font-semibold text-xl">Stack</h1>
