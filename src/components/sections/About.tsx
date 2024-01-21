@@ -5,7 +5,7 @@ const About = () => {
       <div className="md:text-left text-center">
         <h1 className=" title-primary mb-4">About me</h1>
         <p className="max-w-xl text-xl">
-        A dedicated and committed student and emerging front-end developer, widely acknowledged for crafting web applications that seamlessly blend creativity and functionality. The focus is firmly on continuous learning and professional growth, reflecting not only proficiency but also an unwavering dedication to consistently delivering exceptional web experiences, pushing the boundaries of what is possible in the digital world.
+        I am a passionate and goal-oriented Frontend developer hailing from the beautiful country of Kazakhstan. My work is not just a job; it's a labor of love where I pour my creativity into crafting exceptional user experiences. With a firm grasp of popular technologies, I bring a dynamic and innovative approach to my projects.
         </p>
       </div>
       <img className="md:w-2/4 rounded-2xl" src="./img/laptop.jpg" alt="" />
