@@ -8,14 +8,20 @@ export interface IBurger {
 }
 
 const Header:FC<IBurger> = ({burger,setBurger}) => {
+
+  
+
+
   return (
-    <header className='fixed left-0 z-50 right-0 top-0 py-9 shadow-md bg-white'>
-      <div className="container">
+    <header className='fixed left-0 z-50 right-0 top-0 py-8 shadow-md bg-white'>
+      <div className="flex items-center justify-between px-4 md:px-10">
+        <h1 className='font-extrabold text-sm md:text-xl'>Amankos Ansar</h1>
         <nav>
-          <ul className='md:flex items-center justify-end gap-12 hidden'>
-            <li><a className="hover:text-slate-400 cursor-pointer font-bold" href="#about">About</a></li>
-            <li><a className="hover:text-slate-400 cursor-pointer font-bold" href="#projects">Projects</a></li>
-            <li><a className="hover:text-slate-400 cursor-pointer font-bold" href="#contact">Contact</a></li>
+          <ul className='md:flex items-center gap-9 hidden'>
+          <li><a className="hover:text-slate-400 cursor-pointer font-semibold" href="#home">Home</a></li>
+            <li><a className="hover:text-slate-400 cursor-pointer font-semibold" href="#about">About</a></li>
+            <li><a className="hover:text-slate-400 cursor-pointer font-semibold" href="#projects">Projects</a></li>
+            <li><a className="hover:text-slate-400 cursor-pointer font-semibold" href="#contact">Contact</a></li>
           </ul>
           
         </nav>

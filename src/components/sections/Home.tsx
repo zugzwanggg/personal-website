@@ -16,7 +16,7 @@ const Home = () => {
   ]
 
   return (
-    <section className="container my-52 md:my-72">
+    <section id='home' className="container py-52 md:py-60">
       <img src="" alt="" />
       <div className="md:gap-4 flex flex-col">
         <h1 className="md:text-6xl text-2xl font-bold">Frontend developer</h1>
@@ -26,6 +26,7 @@ const Home = () => {
           <a className='duration-500 scale-75 md:scale-100 md:hover:scale-125 hover:scale-90' href='https://www.linkedin.com/in/ansar-amankos-392b91286/'><LinkedInIcon style={{fontSize: '2.5rem'}}/></a>
           <a className='duration-500 scale-75 md:scale-100 md:hover:scale-125 hover:scale-90' href="https://hh.kz/resume/bb1a6000ff0c76f0fb0039ed1f547271736f74"><img className='w-9' src='./img/hh-logo.png'/></a>
         </div>
+        
       </div>
       <div className="mt-16 flex items-center flex-col md:flex-row gap-4">
         <h1 className="font-semibold text-xl">Stack</h1>

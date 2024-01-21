@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <section id="about" className="md:flex-row-reverse py-40 container flex flex-col-reverse items-center justify-between gap-8">
+    <section id="about" className="md:flex-row-reverse py-36 container flex flex-col-reverse items-center justify-between gap-8">
       <div className="md:text-left text-center">
         <h1 className=" title-primary mb-4">About me</h1>
         <p className="max-w-xl text-xl">
